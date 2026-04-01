@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Our Menu — Food Island | Pure Vegetarian Restaurant Khandwa</title>
+  <meta name="description" content="Explore Food Island's complete vegetarian menu — tandoori starters, Indian main course, South Indian dosa & uttapam, breads, rice, mini meals, and salads. Affordable prices.">
+  <meta name="keywords" content="Food Island menu, vegetarian food Khandwa, dosa, paneer, tandoori, affordable meals">
+  <meta name="author" content="Shubham Agrawal">
+  <link rel="icon" href="images/logo.jpg" type="image/jpeg">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+  <!-- Loading Screen -->
+  <div class="loader" id="loader">
+    <div class="loader-logo"><img src="images/logo.jpg" alt="Food Island Logo"></div>
+    <div class="loader-spinner"></div>
+    <div class="loader-text">Food Island</div>
+  </div>
+
+  <!-- Navigation -->
+  <nav class="navbar" id="navbar" role="navigation" aria-label="Main Navigation">
+    <div class="container">
+      <a href="index.html" class="nav-logo" aria-label="Food Island Home">
+        <img src="images/logo.jpg" alt="Food Island Logo" class="nav-logo-img">
+        <div class="nav-logo-text">Food <span>Island</span></div>
+      </a>
+      <ul class="nav-links" id="navLinks">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="menu.html" class="active">Menu</a></li>
+        <li><a href="contact.html">Contact</a></li>
+        <li><a href="https://www.instagram.com/food_island_knw" target="_blank" rel="noopener">Instagram</a></li>
+        <li><a href="contact.html" class="btn btn-primary nav-cta">Reserve Table</a></li>
+      </ul>
+      <button class="nav-toggle" id="navToggle" aria-label="Toggle Navigation" aria-expanded="false">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+  </nav>
+
+  <!-- Page Header -->
+  <section class="page-header">
+    <div class="page-header-bg" id="pageHeaderBg" style="background-image: url('images/hero-bg.png');"></div>
+    <div class="page-header-overlay"></div>
+    <div class="page-header-content">
+      <span class="section-label">Explore Our Flavors</span>
+      <h1 class="page-header-title">Our Menu</h1>
+      <p class="page-header-subtitle">200+ dishes crafted with love — all 100% vegetarian</p>
+      <div class="breadcrumb">
+        <a href="index.html">Home</a>
+        <span>›</span>
+        <span>Menu</span>
+      </div>
+    </div>
+  </section>
+
+  <!-- Menu Section -->
+  <section class="menu-section" id="menuSection">
+    <div class="container">
+      <!-- Category Filter -->
+      <div class="menu-categories" id="menuCategories" role="tablist" aria-label="Menu Categories">
+        <!-- Populated by JS -->
+      </div>
+
+      <!-- Menu Items Container -->
+      <div id="menuContainer">
+        <!-- Populated by JS -->
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="footer" id="footer">
+    <div class="container">
+      <div class="footer-grid">
+        <div>
+          <a href="index.html" class="nav-logo">
+            <img src="images/logo.jpg" alt="Food Island Logo" class="nav-logo-img">
+            <div class="nav-logo-text">Food <span>Island</span></div>
+          </a>
+          <p class="footer-brand-desc">Khandwa's beloved pure vegetarian restaurant, serving authentic Indian cuisine with passion since day one. Founded by Shubham Agrawal.</p>
+          <div class="footer-socials">
+            <a href="https://www.instagram.com/food_island_knw" target="_blank" rel="noopener" class="footer-social-link" aria-label="Instagram"><img src="images/images.png" alt="Instagram" class="footer-social-img"></a>
+          </div>
+        </div>
+        <div>
+          <h4 class="footer-heading">Quick Links</h4>
+          <ul class="footer-links">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="menu.html">Our Menu</a></li>
+            <li><a href="contact.html">Contact Us</a></li>
+            <li><a href="https://www.instagram.com/food_island_knw" target="_blank" rel="noopener">Instagram</a></li>
+          </ul>
+        </div>
+        <div>
+          <h4 class="footer-heading">Our Menu</h4>
+          <ul class="footer-links">
+            <li><a href="menu.html">Tandoori Starters</a></li>
+            <li><a href="menu.html">Indian Main Course</a></li>
+            <li><a href="menu.html">South Indian</a></li>
+            <li><a href="menu.html">Breads & Rice</a></li>
+            <li><a href="menu.html">Mini Meals</a></li>
+          </ul>
+        </div>
+        <div>
+          <h4 class="footer-heading">Contact Info</h4>
+          <div class="footer-contact-item">
+            <span class="footer-contact-icon">📍</span>
+            <span class="footer-contact-text">Jay Bajrang Nagar, Infront of Gangrade Dharamshala, Badgaon Bhila Road, Khandwa, MP 450001</span>
+          </div>
+          <div class="footer-contact-item">
+            <span class="footer-contact-icon">⏰</span>
+            <span class="footer-contact-text">Open Daily: 11:00 AM – 11:00 PM</span>
+          </div>
+          <div class="footer-contact-item">
+            <span class="footer-contact-icon">👤</span>
+            <span class="footer-contact-text">Owner: Shubham Agrawal</span>
+          </div>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <p>&copy; 2026 Food Island. All rights reserved. Founded by <a href="https://www.instagram.com/food_island_knw" target="_blank" rel="noopener">Shubham Agrawal</a>.</p>
+        <p>Made with ❤️ in Khandwa</p>
+      </div>
+    </div>
+  </footer>
+
+  <!-- Back to Top -->
+  <button class="back-to-top" id="backToTop" aria-label="Back to Top">↑</button>
+
+  <script src="js/menu-data.js"></script>
+  <script src="js/main.js"></script>
+  <script src="js/menu.js"></script>
+</body>
+</html>
